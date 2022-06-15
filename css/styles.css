@@ -4,3 +4,15 @@ body {
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #f6b319;
+}
+#logo-img {
+  background-image: url("yaakov.png");
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+}
