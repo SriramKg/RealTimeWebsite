@@ -10,9 +10,178 @@ body {
   background-color: #f6b319;
 }
 #logo-img {
-  background-image: url("yaakov.png");
-  background-repeat: no-repeat;
-  height: 150px;
+  background: url("../restaurant-logo.png") no-repeat;
   width: 150px;
-  margin: 15px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #557c3e;
+  text-shadow: 1px 1px 1px #222;
+  font-family: 'Lora', serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: .7em;
+  color: #000;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+  font-size: medium;
+  padding-left: 4px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #61122f;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#phone {
+  margin-top: 5px;
+}
+#phone a {
+  text-align: right;
+}
+#phone div {
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header .navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header .navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url("../jumbotron_1200.jpg") no-repeat;
+    height: 678px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
+}
+@media (min-width:992px) and (max-width:1199px) {
+  #logo-img {
+    background: url("../restaurant-logo_medium.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  .container .jumbotron {
+    background: url("../jumbotron_992.jpg") no-repeat;
+    height: 561px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
+}
+@media (min-width:768px) and (max-width: 991px) {
+  .container .jumbotron {
+    background: url("../jumbotron_768.jpg") no-repeat;
+    height: 436px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+  }
+  .navbar-brand h1 {
+    font-size: 5vw;
+    padding-top: 10px;
+  }
+  .navbar-brand p {
+    margin-top: 10px;
+    font-size: .5em;
+    color: #000;
+  }
+}
+#collapsable-nav a {
+  font-size: 1.2em;
+}
+#collapsable-nav a span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+/* HOMEPAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3f0c1f;
+  border: 2px solid #3f0c1f;
+  padding: 0px;
+  margin-top: 30px;
+}
+#menu-title, #special-title, #map-title {
+  width: 100%;
+  height: 250px;
+  border: 2px solid #3f0c1f;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#menu-title:hover, #special-title:hover, #map-title:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-title {
+  background: url("../menu-tile.jpg") no-repeat;
+  background-position: center;
+}
+#special-title {
+  background: url("../specials-tile.jpg") no-repeat;
+  background-position: center;
+}
+#map-title {
+  background-position: center;
+}
+#menu-title span, #special-title span, #map-title span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  width: 100%;
+  opacity: .8;
+  color: #fff;
+}
+
+/* END OF HOMEPAGE */
+#phone-btn > a {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 30px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+#we-deliver {
+  font-size: .7em;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: .1em;
+  text-align: center;
 }
