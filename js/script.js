@@ -13,10 +13,10 @@ $(function () { // similar to DOMContentOverloaded in JS
 (function (global) {
     var dc = {};
     var homeHTML = "snippets/home-snippet.html";
-    var allCategoriesURL = "http://davids-restaurant.herokuapp.com/categories.json";
+    var allCategoriesURL = "https://davids-restaurant.herokuapp.com/categories.json";
     var categoriesTitleHTML = "snippets/categories-title-snippet.html";
     var categoryHTML = "snippets/category-snippet.html";
-    var menuItemsURL = "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+    var menuItemsURL = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
     var menuItemsTitleHTML = "snippets/menu-items-title.html";
     var menuItemHTML = "snippets/menu-item.html";
     var insertHTML = function (selector, html) {
